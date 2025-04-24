@@ -10,31 +10,43 @@
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f4f4f9; /* Soft background color */
         }
         .login-container {
             text-align: center;
-            background: #ffffff;
-            padding: 20px;
-            border: 1px solid #ddd;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Gradient background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ffffff; /* White for the heading text */
+            margin-bottom: 20px;
         }
         input {
             margin: 10px 0;
             padding: 10px;
             width: 80%;
             box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        input:focus {
+            border-color: #ff6b81; /* Highlight border on focus */
+            outline: none;
         }
         button {
             margin: 10px 0;
             padding: 10px 20px;
-            background-color: #0056b3;
-            color: #fff;
+            background-color: #6a82fb; /* Button background */
+            color: #ffffff; /* Button text */
             border: none;
+            border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s;
         }
         button:hover {
-            background-color: #003e82;
+            background-color: #5a72e2; /* Hover color */
         }
     </style>
 </head>
@@ -49,3 +61,4 @@
     </div>
 </body>
 </html>
+
